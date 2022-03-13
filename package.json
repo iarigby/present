@@ -1,0 +1,11 @@
+{
+  "name": "present",
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {
+    "reveal-md": "^5.3.1"
+  },
+  "bin": "present.js",
+  "pkg": {
+    "assets": "preproc.js"
+  }
+}
