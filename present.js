@@ -36,7 +36,9 @@ const args = [
     '--theme', 'white',
 	'--css', 'style.css'
 ]
-const node_path = '/opt/homebrew/Cellar/node/17.7.1/bin/node'
+
+// const node_path = '/opt/homebrew/Cellar/node/17.7.1/bin/node'
+const node_path = '/Users/ia/.nvm/versions/node/v17.9.1/bin/node'
 // const presentation = spawn(bin, args, {cwd: __dirname})
 const presentation = spawn(node_path, args, {cwd: __dirname})
 

@@ -1,7 +1,15 @@
-.reveal p {
-    font-size: 0.7em !important;
+.reveal p, .reveal li  {
+    font-size: 0.8em !important;
 }
 
 .reveal h1 {
-	font-size: 1.0em !important;
+	font-size: 1.3em !important;
+}
+
+.reveal h2 {
+	font-size: 1.2em !important;
+}
+
+.reveal h3 {
+	font-size: 1.1em !important;
 }
